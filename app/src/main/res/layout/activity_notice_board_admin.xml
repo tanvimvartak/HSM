@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/steel_blue"
+    android:orientation="vertical"
+    tools:context=".NoticeBoardAdmin">
+
+    <EditText
+        android:id="@+id/notice_titleInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white"
+        android:hint="Enter the title" />
+
+
+    <EditText
+        android:id="@+id/notice_descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:hint="Enter the description" />
+
+    <Button
+        android:id="@+id/notice_uploadBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="upload" />
+
+
+    <ListView
+        android:id="@+id/noticeAdmin_displayNotice"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

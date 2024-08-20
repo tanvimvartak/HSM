@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeScreen">
+
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="215dp"
+        android:background="@drawable/rectangle_round"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="155dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginBottom="156dp"
+                android:gravity="center"
+                android:text="Home"
+                android:textColor="@color/black"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="98dp"
+                android:layout_marginLeft="98dp"
+                android:layout_marginBottom="79dp"
+                android:text="Welcome Resident"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginBottom="55dp"
+                android:textAlignment="center"
+                android:text="How we can help you today?"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/residents"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_home"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="Residents"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/notice"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_home"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="Notice Board"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/complaint"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:paddingBottom="8dp"
+        android:gravity="bottom|center"
+        android:background="@drawable/button_home"
+        android:text="complaints"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/user_maintenance"
+        android:layout_width="120dp"
+        android:layout_height="110dp"
+        android:background="@drawable/button_home"
+        android:gravity="bottom|center"
+        android:paddingBottom="8dp"
+        android:text="maintenance "
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.665" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logout"
+        android:layout_width="135dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_back"
+        android:text="Log Out"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.852" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="72dp"
+        android:layout_height="54dp"
+        android:elevation="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/residents"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/residents"
+        app:layout_constraintTop_toTopOf="@+id/residents"
+        app:layout_constraintVertical_bias="0.392"
+        app:srcCompat="@drawable/residents" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:elevation="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/notice"
+        app:layout_constraintEnd_toEndOf="@+id/notice"
+        app:layout_constraintStart_toStartOf="@+id/notice"
+        app:layout_constraintTop_toTopOf="@+id/notice"
+        app:layout_constraintVertical_bias="0.392"
+        app:srcCompat="@drawable/noticeboard" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:elevation="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/complaint"
+        app:layout_constraintEnd_toEndOf="@+id/complaint"
+        app:layout_constraintStart_toStartOf="@+id/complaint"
+        app:layout_constraintTop_toTopOf="@+id/complaint"
+        app:layout_constraintVertical_bias="0.392"
+        app:srcCompat="@drawable/complaints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="74dp"
+        android:layout_height="59dp"
+        android:elevation="19dp"
+        app:layout_constraintBottom_toBottomOf="@+id/user_maintenance"
+        app:layout_constraintEnd_toEndOf="@+id/user_maintenance"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="@+id/user_maintenance"
+        app:layout_constraintTop_toTopOf="@+id/user_maintenance"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@drawable/maintenanace" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

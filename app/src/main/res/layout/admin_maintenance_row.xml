@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text_bg"
+    android:paddingStart="10dp"
+    android:paddingVertical="5dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/maintenance_user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/magenta2"
+        android:textSize="17sp"
+        android:text="A"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/steel_blue"
+            android:textSize="16sp"
+
+            android:text="Email : "/>
+
+        <TextView
+            android:id="@+id/maintenance_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            android:text="tanvi@gmail.com"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/steel_blue"
+            android:textSize="16sp"
+
+            android:text="Maintenance : "/>
+
+        <TextView
+            android:id="@+id/maintenance_maintenance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            android:text="15200"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/steel_blue"
+            android:textSize="16sp"
+
+            android:text="Sinking Fund : "/>
+
+        <TextView
+            android:id="@+id/maintenance_sinkingfund"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+
+            android:text="500"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+
+            android:textColor="@color/steel_blue"
+            android:text="Parking Charges : "/>
+
+        <TextView
+            android:id="@+id/maintenance_charges"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+
+            android:text="200"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/maintenance_removeBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="remove"/>
+
+    <Button
+        android:id="@+id/maintenance_editBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="edit" />
+
+
+
+
+</LinearLayout>

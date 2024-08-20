@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "271378568319",
+    "firebase_url": "https://housing-society-manageme-8d8fe-default-rtdb.firebaseio.com",
+    "project_id": "housing-society-manageme-8d8fe",
+    "storage_bucket": "housing-society-manageme-8d8fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271378568319:android:08335524ca42d404d31b4a",
+        "android_client_info": {
+          "package_name": "com.example.hsm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271378568319-s9ucv543hu0mldrsfqsemodm9usk1mu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBciOVF5DWE6gnPkDOj7qIGvVkD4J9nvWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271378568319-s9ucv543hu0mldrsfqsemodm9usk1mu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
